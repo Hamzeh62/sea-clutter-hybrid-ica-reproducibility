@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If using the research software or numerical results, cite the associated manuscript and the version-specific Zenodo DOI when available."
+message: "If using this research software, cite its published Zenodo version DOI 10.5281/zenodo.24005344. A separate DOI for checkpoints and results will be recorded when published."
 title: "Hybrid Complex-Valued Deep Learning and Reference-Anchored ICA for Small-Target Detection in Sea Clutter: Detection and Calibration Analysis"
 abstract: "Reproducibility package for an evaluation study of reference-conditioned small-target detection in polarimetric sea clutter. It contains the deployed detector implementations, the frozen two-fold acquisition protocol, the released numerical results, and the scripts that regenerate every published figure and table. The study establishes that a reference-conditioned autoregressive detector collapses when its cross-polarised reference contains the target, that the collapse is prediction-error self-cancellation rather than polarimetric sensitivity, and that no tested clutter-only calibration rule realises a nominal false-alarm rate of 1e-3 across the 16 IPIX acquisitions."
 type: software
