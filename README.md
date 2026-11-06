@@ -81,8 +81,8 @@ Two weights are required, and only for Level 2 and the hybrid smoke test:
 | `best_s0.pt` | hybrid (M1→M2→M3→M4) | `a0a49db9c24814706fa89b38c8fc1ee8b306fc15cf6a611f259148d18a06ce53` |
 | `best_s0_nophys.pt` | physics-free ablation | `2bcf10417a97f4d234853c97d43106331b33c0c0ab99f3e5b30ebdcd18411da0` |
 
-Place them in `checkpoints/` (or set `PAPER1_CHECKPOINTS`). Both are archived in the Zenodo record;
-the DOI is recorded in `docs/RELEASE_NOTES.md` once assigned. Verify them with:
+Place them in `checkpoints/` (or set `PAPER1_CHECKPOINTS`). Both will be archived in a separate Zenodo dataset record once that record is published;
+the separate checkpoint/results DOI will be recorded after that deposit is published. Verify them with:
 
 ```bash
 python scripts/checkpoint_fixture.py --verify --checkpoints checkpoints
@@ -183,7 +183,7 @@ classification is in `manifests/REPRODUCIBILITY_COVERAGE_MATRIX.csv`.
 ## Citation
 
 See `CITATION.cff`. Until the article is published, cite the archived software record with the DOI
-in `docs/RELEASE_NOTES.md` (assigned after the archive is published; no DOI is invented here).
+https://doi.org/10.5281/zenodo.24005344 (software release v1.0.0); a separate artifacts DOI is not yet assigned.
 
 ## License
 
@@ -206,5 +206,5 @@ Corresponding author: Hamzeh Ghahramani — hamze.ghahramani@gmail.com; confirme
 - **MIT** applies to original author-owned software (`LICENSE`).
 - **CC BY 4.0** applies to original author-owned results and released checkpoints (`DATA_LICENSE.md`).
 - Third-party raw IPIX recordings and near-lossless derivative cubes are **not distributed or licensed**.
-- The repository is prepared for GitHub and the artifact archive for a direct Zenodo deposit. **Neither a public GitHub publication nor a Zenodo DOI is claimed here.**
+- GitHub has been published and the v1.0.0 source release archived under https://doi.org/10.5281/zenodo.24005344. The separate research artifacts record is prepared but not yet published; do not interpret the software DOI as including the checkpoint ZIP or full numerical archives.
 - This release contains archived historical-protocol figures as well as corrected-evaluation results. The two protocols are distinct, and the existing coverage limitations remain documented.
