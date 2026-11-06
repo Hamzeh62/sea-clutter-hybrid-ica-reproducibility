@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If using this research software, cite its published Zenodo version DOI 10.5281/zenodo.24005344. A separate DOI for checkpoints and results will be recorded when published."
+message: "If using this research software, cite its published Zenodo version DOI 10.5281/zenodo.24005344. The separate checkpoints and compact-results dataset is archived at 10.5281/zenodo.24005920."
 title: "Hybrid Complex-Valued Deep Learning and Reference-Anchored ICA for Small-Target Detection in Sea Clutter: Detection and Calibration Analysis"
 abstract: "Reproducibility package for an evaluation study of reference-conditioned small-target detection in polarimetric sea clutter. It contains the deployed detector implementations, the frozen two-fold acquisition protocol, the released numerical results, and the scripts that regenerate every published figure and table. The study establishes that a reference-conditioned autoregressive detector collapses when its cross-polarised reference contains the target, that the collapse is prediction-error self-cancellation rather than polarimetric sensitivity, and that no tested clutter-only calibration rule realises a nominal false-alarm rate of 1e-3 across the 16 IPIX acquisitions."
 type: software
@@ -28,6 +28,6 @@ keywords:
 # Article reference will be added after the manuscript is submitted/published.
 # Primary contact: hamze.ghahramani@gmail.com
 # Confirmed institutional email: hamze.ghahramani@iau.ac.ir
-# MIT code / CC BY 4.0 research artifacts; separate results/checkpoints DOI pending.
+# MIT code / CC BY 4.0 research artifacts; dataset DOI: 10.5281/zenodo.24005920.
 # Final manuscript title synchronised to restored SIVP submission on 2026-11-01.
 # Institutional email (author confirmed): hamze.ghahramani@iau.ac.ir
