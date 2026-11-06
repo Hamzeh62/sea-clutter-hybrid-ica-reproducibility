@@ -6,6 +6,8 @@ type: software
 license: MIT
 repository-code: "https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility"
 version: "1.0.0"
+doi: 10.5281/zenodo.24005344
+url: "https://doi.org/10.5281/zenodo.24005344"
 authors:
   - family-names: "Ghahramani"
     given-names: "Hamzeh"
@@ -22,9 +24,10 @@ keywords:
   - "complex independent component analysis"
   - "false-alarm calibration"
   - "adaptive cancellation"
-# Article reference and DOI will be added after the manuscript is submitted/published.
+# Software version DOI: 10.5281/zenodo.24005344. This is not an article DOI.
+# Article reference will be added after the manuscript is submitted/published.
 # Primary contact: hamze.ghahramani@gmail.com
 # Confirmed institutional email: hamze.ghahramani@iau.ac.ir
-# MIT code / CC BY 4.0 research artifacts; DOI not yet assigned.
+# MIT code / CC BY 4.0 research artifacts; separate results/checkpoints DOI pending.
 # Final manuscript title synchronised to restored SIVP submission on 2026-11-01.
 # Institutional email (author confirmed): hamze.ghahramani@iau.ac.ir
