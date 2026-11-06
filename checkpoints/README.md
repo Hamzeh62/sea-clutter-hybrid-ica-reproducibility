@@ -14,8 +14,7 @@ in the archival record (`PAPER1_CHECKPOINTS_v1.0.0.zip`).
 
 ## Obtaining them
 
-1. Download the checkpoint archive from the Zenodo record listed in `../docs/RELEASE_NOTES.md`
-   (DOI assigned when the record is published; no DOI is invented here).
+1. Download `PAPER1_CHECKPOINTS_v1.0.0.zip` from https://doi.org/10.5281/zenodo.24005920 (the experimental-artifacts dataset; not the separate software DOI).
 2. Extract `best_s0.pt` and `best_s0_nophys.pt` into this directory.
 3. Verify:
 
