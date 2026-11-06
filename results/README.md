@@ -27,4 +27,4 @@ Every file here was copied byte-for-byte from the revision workspace and is hash
 `../manifests/SHA256SUMS.txt`. `scripts/verify_artifacts.py` re-checks the whole tree.
 
 
-**License:** Original author-owned numerical result artifacts are released under CC BY 4.0; see `../DATA_LICENSE.md`. The compact results archive is a separate direct-Zenodo deposit file.
+**License:** Original author-owned numerical result artifacts are released under CC BY 4.0; see `../DATA_LICENSE.md`. The compact results archive `PAPER1_RESULTS_COMPACT_FOR_CHATGPT.zip` is deposited at https://doi.org/10.5281/zenodo.24005920 (CC BY 4.0). The complete ~175 MB score archive is not included in that deposit.
