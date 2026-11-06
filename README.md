@@ -10,6 +10,8 @@ This repository is the software and lightweight numerical-results companion to a
 
 **Citation:** Ghahramani, H. (2026). *Hybrid Complex-Valued Deep Learning and Reference-Anchored ICA for Small-Target Detection in Sea Clutter: Detection and Calibration Analysis — reproducibility software (v1.0.0)*. Zenodo. https://doi.org/10.5281/zenodo.24005344
 
+**Experimental artifacts DOI:** https://doi.org/10.5281/zenodo.24005920 — trained checkpoints and the compact experimental-results archive (CC BY 4.0). The original complete ~175 MB results archive is not included.
+
 ## Scientific scope and historical versus corrected results
 
 The final SIVP version retains the **original Swerling detection-power curves, low-PFA ROC, and architectural ablations**, and separately reports a **corrected 16-acquisition IPIX evaluation** of polarimetric-reference contamination, retrospective common-false-alarm comparisons, warm-start effects, and calibration transfer.
@@ -17,7 +19,7 @@ The final SIVP version retains the **original Swerling detection-power curves, l
 - **Historical original-protocol figures** are preserved as publication-quality vector PDFs in `figures/publication/main/` and `figures/publication/supplementary/`. Their source curves have **not** been recomputed from the later corrected protocol. Historical numerical score archives and some legacy plotting scripts were not supplied in the present public-release inputs; reproducing those curves *from raw trials* is **not yet validated by this staging package**.
 - **Corrected evaluation outputs** and their code are in `results/phase5`–`phase7`, `pipeline/`, and `scripts/`. The existing Phase 9 validation (133 values, 34 tests, two figures, one bit-exact IPIX replay when data are present) refers to the former **two-figure Phase 8 article**. It must **not** be represented as end-to-end numerical validation of every table and figure in the restored manuscript.
 - **Figure provenance:** see `manifests/FINAL_SIVP_FIGURE_PROVENANCE.csv` and `docs/RESTORED_MANUSCRIPT_REPRODUCIBILITY.md`.
-- **Checkpoints and compact score archive:** verified original checkpoint bytes and the available losslessly prepared compact results archive are packaged separately for direct Zenodo upload. The complete ~175 MB campaign archive remains separate and is not included in this handoff; see `checkpoints/README.md`, `results/README.md` and `docs/DEPOSIT_STATUS.md`.
+- **Checkpoints and compact score archive:** verified original checkpoint bytes and the available compact results archive are published separately in Zenodo at https://doi.org/10.5281/zenodo.24005920. The complete ~175 MB campaign archive remains separate and is not included in this handoff; see `checkpoints/README.md`, `results/README.md` and `docs/DEPOSIT_STATUS.md`.
 - **IPIX raw CDF / derived cubes:** excluded pending third-party redistribution rights. Users must obtain source data through an authorized channel.
 
 The manuscript deliberately distinguishes nominal PFA from independently measured false-alarm rates and does not claim universal superiority over classical detectors or cross-acquisition constant-false-alarm guarantees.
@@ -28,7 +30,7 @@ The manuscript deliberately distinguishes nominal PFA from independently measure
 
 ## Licensing status
 
-**AUTHOR APPROVAL REQUIRED.** The original source-code license has not yet been selected; the existing `LICENSE` is a decision record, not an MIT license grant. Suggested split: MIT for original research code, CC BY 4.0 for author-owned checkpoints and results. Do not publish until the author approves a specific license and redistribution rights are checked. Third-party data are excluded.
+**Licenses approved and applied:** MIT for author-owned source code (`LICENSE`) and CC BY 4.0 for author-owned numerical results and checkpoints (`DATA_LICENSE.md`). Third-party IPIX recordings remain excluded.
 
 ## Funding, competing interests and AI assistance
 
@@ -81,8 +83,7 @@ Two weights are required, and only for Level 2 and the hybrid smoke test:
 | `best_s0.pt` | hybrid (M1→M2→M3→M4) | `a0a49db9c24814706fa89b38c8fc1ee8b306fc15cf6a611f259148d18a06ce53` |
 | `best_s0_nophys.pt` | physics-free ablation | `2bcf10417a97f4d234853c97d43106331b33c0c0ab99f3e5b30ebdcd18411da0` |
 
-Place them in `checkpoints/` (or set `PAPER1_CHECKPOINTS`). Both will be archived in a separate Zenodo dataset record once that record is published;
-the separate checkpoint/results DOI will be recorded after that deposit is published. Verify them with:
+Place them in `checkpoints/` (or set `PAPER1_CHECKPOINTS`). Both are deposited in the separate experimental-artifacts Zenodo dataset at https://doi.org/10.5281/zenodo.24005920. Verify them with:
 
 ```bash
 python scripts/checkpoint_fixture.py --verify --checkpoints checkpoints
@@ -183,7 +184,7 @@ classification is in `manifests/REPRODUCIBILITY_COVERAGE_MATRIX.csv`.
 ## Citation
 
 See `CITATION.cff`. Until the article is published, cite the archived software record with the DOI
-https://doi.org/10.5281/zenodo.24005344 (software release v1.0.0); a separate artifacts DOI is not yet assigned.
+https://doi.org/10.5281/zenodo.24005344 (software release v1.0.0); the separate checkpoints/compact-results dataset DOI is https://doi.org/10.5281/zenodo.24005920.
 
 ## License
 
@@ -206,5 +207,5 @@ Corresponding author: Hamzeh Ghahramani — hamze.ghahramani@gmail.com; confirme
 - **MIT** applies to original author-owned software (`LICENSE`).
 - **CC BY 4.0** applies to original author-owned results and released checkpoints (`DATA_LICENSE.md`).
 - Third-party raw IPIX recordings and near-lossless derivative cubes are **not distributed or licensed**.
-- GitHub has been published and the v1.0.0 source release archived under https://doi.org/10.5281/zenodo.24005344. The separate research artifacts record is prepared but not yet published; do not interpret the software DOI as including the checkpoint ZIP or full numerical archives.
+- GitHub has been published and the v1.0.0 source release archived under https://doi.org/10.5281/zenodo.24005344. A separate research-artifacts dataset is available at https://doi.org/10.5281/zenodo.24005920 with the two checkpoint/compact-results ZIPs. Neither DOI contains the full ~175 MB score archive or raw IPIX recordings.
 - This release contains archived historical-protocol figures as well as corrected-evaluation results. The two protocols are distinct, and the existing coverage limitations remain documented.
