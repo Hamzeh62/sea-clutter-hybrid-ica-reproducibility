@@ -1,0 +1,157 @@
+{
+  "amendments": [
+    {
+      "date": "2026-10-29",
+      "effect_on_hypotheses": "none; the comparison rules, seeds and grids are unchanged",
+      "evidence": "Phase 3 calibration audit; unit cost measured by bench_threads.py",
+      "id": "A1",
+      "what": "one shared stratified H0 pool per (fold, partition), drawn from the frozen superset with the frozen seed, used by all eight arms",
+      "why": "Phase 4 planned a 12,000-window subsample for baselines and the full pool for the Hybrid; the empirical threshold then differs in calibration precision and in order-statistic PFA bias across arms"
+    },
+    {
+      "date": "2026-10-30",
+      "effect_on_hypotheses": "pool size changes the precision of realised PFA and of the order-statistic threshold, equally for all arms; the paired contrast and its bootstrap are unaffected",
+      "evidence": "9 completed full-pool ANMF blocks (0.90-0.99 s/window on CAL, 36,022 s wall for one 3,720-window block); DEVIATIONS.md D8",
+      "id": "A2",
+      "outcomes_seen": "no: only H0 score distributions from 9 of 32 blocks existed, no threshold, Pd or contrast had been computed",
+      "what": "pool caps fixed at 8,000 CAL-H0 and 4,000 TEST-H0 windows per fold, identical for every arm",
+      "why": "full-pool ANMF scoring measured at 0.73 s/window (512x512 adaptive covariance per window): ~11 CPU-hours per fold, outside the authorized minimal campaign budget"
+    }
+  ],
+  "c_sep": {
+    "n_windows": 250
+  },
+  "cache_dir": "F:\\ClaudeCode\\Topic 1\\ipix_hybrid_detector\\cache",
+  "campaign": "minimal_v1_20261029",
+  "checkpoints": {
+    "hybrid": {
+      "path": "ipix_hybrid_detector\\results\\checkpoints\\best_s0.pt",
+      "sha256": "a0a49db9c24814706fa89b38c8fc1ee8b306fc15cf6a611f259148d18a06ce53"
+    },
+    "nophys": {
+      "path": "ipix_hybrid_detector\\results\\checkpoints\\best_s0_nophys.pt",
+      "sha256": "2bcf10417a97f4d234853c97d43106331b33c0c0ab99f3e5b30ebdcd18411da0"
+    }
+  },
+  "config_sha256": "9a0d3550d71e61318c24b2c65625667a33b6d0ff4fd5d61bdd6babbf5b742b02",
+  "description": "Authorized Phase 5 minimal campaign: corrected 16-acquisition two-fold design, design PFA 1e-3, Swerling-0, CPI 512; amendments A1/A2 give every arm the identical shared H0 pool (8,000 CAL / 4,000 TEST).",
+  "design_pfa": 0.001,
+  "e1": {
+    "scr_db": [
+      -20.0,
+      -15.0,
+      -12.5,
+      -10.0,
+      -7.5,
+      -5.0,
+      0.0,
+      5.0,
+      10.0
+    ]
+  },
+  "e2": {
+    "scr_db": [
+      -15.0,
+      -10.0,
+      -5.0,
+      0.0,
+      5.0
+    ]
+  },
+  "e3": {
+    "scr_db": [
+      -10.0,
+      -5.0,
+      0.0,
+      5.0,
+      10.0
+    ]
+  },
+  "expected_h1": {
+    "fold1": 1990,
+    "fold2": 2000
+  },
+  "expected_pool_sizes": {
+    "fold1/CAL_H0": 27156,
+    "fold1/TEST_H0": 27156,
+    "fold2/CAL_H0": 27156,
+    "fold2/TEST_H0": 27156
+  },
+  "frozen": "2026-10-29",
+  "frozen_inputs": {
+    "DATA_PARTITION_MANIFEST.csv": "be5ebfc8cc64d4b4e304018fed53667c86059b5b1328f014c0d2666861f7728a",
+    "H1_TRIAL_DESIGN.csv": "5e569b74384aeb81c20c22ae928f3f5afa60bf5858dc0e5c1d5da1f8f99d20fd",
+    "PARTITION_SUMMARY.json": "bdeb5613647170c8f2206d4b0d287fcc9bab2987dcd9bcdcc96001ed6b812e6f",
+    "acquisition_ids.py": "283c2483c93545933411193c8389d3312eec9c229285abe98f02b73dcd7773dc",
+    "split_protocol.py": "b29f40a3745fb4a37111675f12a11397be8cdda2894371fafbebd4badf29c976",
+    "thresholds_frozen.py": "2ce3e0363a5b5c4d67d89fa150a3339a506c8b38427844b80ad4ab6aeb49983d",
+    "units_fixed.py": "7e18d4a2185a032b6904edeca6da3489294a270e2b11bebf2b758a14a9aad3ad"
+  },
+  "interpreter": "ipix_hybrid_detector/.venv (Python 3.12.10, torch 2.13.0+cpu)",
+  "n_win": {
+    "19931107_135603_starea": 511,
+    "19931107_141630_starea": 511,
+    "19931107_145028_starea": 511,
+    "19931108_213827_starea": 511,
+    "19931108_220902_starea": 511,
+    "19931109_191449_starea": 511,
+    "19931109_202217_starea": 511,
+    "19931110_001635_starea": 511,
+    "19931111_163625_starea": 511,
+    "19931118_023604_starec0000": 511,
+    "19931118_035737_starec0000": 511,
+    "19931118_162155_starec0000": 511,
+    "19931118_162658_starec0000": 511,
+    "19931118_174259_starec0000": 511,
+    "19980204_163113_antstep": 233,
+    "19980205_171437_antstep": 233
+  },
+  "pool_rule": "shared stratified subsample, identical units for every arm",
+  "pools": {
+    "anmf": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "cfar": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "cold": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "fairness": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "hybrid": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "ica": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "nophys": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    },
+    "temporal": {
+      "CAL_H0": 8000,
+      "TEST_H0": 4000
+    }
+  },
+  "processing": {
+    "K_secondary": 1024,
+    "Np": 512,
+    "hop": 256,
+    "prf": 1000.0,
+    "swerling": 0
+  },
+  "seeds": {
+    "bootstrap": 20261029,
+    "csep": 20261029,
+    "h1_target": "sha256(trial_id) -> default_rng",
+    "pool": 20261029
+  }
+}

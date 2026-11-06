@@ -1,0 +1,37 @@
+{
+  "design_pfa": 0.001,
+  "rules": {
+    "A": {
+      "worst_realised_over_design": 9.75,
+      "median_realised_over_design": 1.125,
+      "worst_acq_over_design": 46.65314401622718,
+      "n_cases_over_2x": 9,
+      "loo_median_over_design": 0.0,
+      "n_tail_owners_median": 2.0
+    },
+    "B": {
+      "worst_realised_over_design": 20.5,
+      "median_realised_over_design": 2.8909736308316427,
+      "worst_acq_over_design": 74.81751824817519,
+      "n_cases_over_2x": 12,
+      "loo_median_over_design": 1.4255736627021447,
+      "n_tail_owners_median": 2.0
+    },
+    "C": {
+      "worst_realised_over_design": 10.5,
+      "median_realised_over_design": 0.5,
+      "worst_acq_over_design": 52.73833671399594,
+      "n_cases_over_2x": 7,
+      "loo_median_over_design": 0.0,
+      "n_tail_owners_median": 2.0
+    },
+    "D": {
+      "worst_realised_over_design": 4.75,
+      "median_realised_over_design": 0.5,
+      "worst_acq_over_design": 16.227180527383368,
+      "n_cases_over_2x": 8,
+      "loo_median_over_design": 0.0,
+      "n_tail_owners_median": 2.0
+    }
+  }
+}

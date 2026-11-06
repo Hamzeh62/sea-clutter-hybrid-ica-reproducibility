@@ -1,0 +1,4 @@
+arm_a,arm_b,scr_db,delta_pd_frozen,redraw_median,redraw_lo,redraw_hi,p_a_worse_than_b,p_sign_flip,n_boot
+hybrid,anmf_dl,0,0.1227272727,0.1006289308,0.01226806823,0.1812865497,0.0135,0.0135,2000
+hybrid,ar8,0,-0.1681818182,-0.04320987654,-0.09151629977,-0.01219512195,0.996,0,2000
+nophys,hybrid,0,-0.03661616162,0.01875,0,0.06173012901,0.0185,0.0185,2000

@@ -1,0 +1,7 @@
+pfa,scope,n_cal_windows,n_cal_cells,windows_per_cell,n_test_h0_windows,expected_test_false_alarms,cp95_lo,cp95_hi,effective_n_cluster,threshold_relative_se,rule,verdict
+0.001,fold1,27156,82,331.2,27156,27.16,0.000655,0.001446,457.9,0.138,empirical order statistic,primary: realized PFA verifiable to about +-26 %
+0.001,fold2,27156,81,335.3,27156,27.16,0.000655,0.001446,452.4,0.139,empirical order statistic,primary: realized PFA verifiable to about +-26 %
+0.001,pooled_folds,54312,163,333.2,54312,54.31,0.000747,0.001297,910.3,0.098,empirical order statistic,primary: realized PFA verifiable to about +-26 %
+0.0001,fold1,27156,82,331.2,27156,2.72,2.3e-05,0.000323,457.9,0.339,exponential-tail extrapolation,"exploratory only, not independently verifiable"
+0.0001,fold2,27156,81,335.3,27156,2.72,2.3e-05,0.000323,452.4,0.341,exponential-tail extrapolation,"exploratory only, not independently verifiable"
+0.0001,pooled_folds,54312,163,333.2,54312,5.43,3e-05,0.000215,910.3,0.24,exponential-tail extrapolation,"exploratory only, not independently verifiable"

@@ -1,0 +1,38 @@
+{
+  "about": "SHA-256 of every frozen input, as declared in configs/campaign.json, with the file in this repository that reproduces it. All seven verify byte for byte; protocol/acquisition_ids.py is a separately documented derivative of protocol/original/acquisition_ids.py that only changes the metadata path (see docs/RELEASE_NOTES.md).",
+  "config_sha256": "9a0d3550d71e61318c24b2c65625667a33b6d0ff4fd5d61bdd6babbf5b742b02",
+  "inputs": {
+    "DATA_PARTITION_MANIFEST.csv": {
+      "sha256": "be5ebfc8cc64d4b4e304018fed53667c86059b5b1328f014c0d2666861f7728a",
+      "release_path": "protocol/DATA_PARTITION_MANIFEST.csv"
+    },
+    "H1_TRIAL_DESIGN.csv": {
+      "sha256": "5e569b74384aeb81c20c22ae928f3f5afa60bf5858dc0e5c1d5da1f8f99d20fd",
+      "release_path": "protocol/H1_TRIAL_DESIGN.csv"
+    },
+    "PARTITION_SUMMARY.json": {
+      "sha256": "bdeb5613647170c8f2206d4b0d287fcc9bab2987dcd9bcdcc96001ed6b812e6f",
+      "release_path": "protocol/PARTITION_SUMMARY.json"
+    },
+    "acquisition_ids.py": {
+      "sha256": "283c2483c93545933411193c8389d3312eec9c229285abe98f02b73dcd7773dc",
+      "release_path": "protocol/original/acquisition_ids.py"
+    },
+    "split_protocol.py": {
+      "sha256": "b29f40a3745fb4a37111675f12a11397be8cdda2894371fafbebd4badf29c976",
+      "release_path": "protocol/split_protocol.py"
+    },
+    "thresholds_frozen.py": {
+      "sha256": "2ce3e0363a5b5c4d67d89fa150a3339a506c8b38427844b80ad4ab6aeb49983d",
+      "release_path": "protocol/thresholds_frozen.py"
+    },
+    "units_fixed.py": {
+      "sha256": "7e18d4a2185a032b6904edeca6da3489294a270e2b11bebf2b758a14a9aad3ad",
+      "release_path": "protocol/units_fixed.py"
+    }
+  },
+  "auxiliary": {
+    "metadata/target_cells.json": "57604f1984283c80fc0ba966068ca6b6d3ecf21ef554bd93df2fe46d8c528ded",
+    "configs/default.yaml": "e83ba3d4c0e071659d815ecd43508c264a90911723851fc58a4acead444688c4"
+  }
+}

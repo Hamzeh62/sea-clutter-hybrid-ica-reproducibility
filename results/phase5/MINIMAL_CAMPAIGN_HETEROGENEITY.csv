@@ -1,0 +1,4 @@
+arm_a,arm_b,scr_db,stratified_mcnemar_z,stratified_mcnemar_p,homogeneity_q,df,homogeneity_p,n_acquisitions,acq_favouring_a,acq_favouring_b,acq_tied,n01_total,n10_total
+hybrid,anmf_dl,0,14.88530257,4.106246191e-50,325.8490018,15,2.323458083e-60,16,11,5,0,776,290
+hybrid,ar8,0,-18.05946061,6.646889208e-73,391.321616,15,4.600738764e-74,16,4,12,0,347,1013
+nophys,hybrid,0,-6.491091475,8.521671486e-11,340.1929042,15,2.356421765e-63,16,8,8,0,177,322

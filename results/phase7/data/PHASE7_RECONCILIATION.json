@@ -1,0 +1,202 @@
+{
+  "items": {
+    "R1": {
+      "finding": "point estimates are 10log10(eta); published intervals are percentiles of eta on the linear power scale, so they do not bracket the point estimate when read as dB",
+      "max_abs_diff_between_10log10_eta_and_reported_dm_db": 0.00227138743838573,
+      "all_cis_bracket_point_after_conversion": true,
+      "n_cis_that_exclude_zero_in_dB": 12,
+      "example_141630": {
+        "acq_id": "19931107_141630_starea",
+        "cell": 8,
+        "cell_source": "literature",
+        "eta_linear": 3.4923,
+        "eta_ci_lo": 3.4246,
+        "eta_ci_hi": 3.6316,
+        "dSCR_db": 5.431115439534385,
+        "dSCR_ci_lo_db": 5.3460985234299745,
+        "dSCR_ci_hi_db": 5.600980074262994,
+        "ci_brackets_point": true,
+        "ci_excludes_zero": true
+      }
+    },
+    "R2b_metadata_coverage": {
+      "fold1_cal": {
+        "cfar_files": 8,
+        "files_with_withdrawal_metadata": 0,
+        "n_withdrawn_units_seen": 0
+      },
+      "fold2_cal": {
+        "cfar_files": 8,
+        "files_with_withdrawal_metadata": 8,
+        "n_withdrawn_units_seen": 123
+      }
+    },
+    "R2": {
+      "finding": "the two numbers are different estimands: the frozen arm on all 3,990 trials with campaign thresholds (0.8148) versus the E3 report's re-analysis on the 3,960-trial common-evaluable set with thresholds recomputed after withdrawing CFAR-unevaluable CAL units (0.790); the withdrawal list itself is only as complete as the metadata that survived a mid-campaign runner edit",
+      "per_fold": {
+        "fold1": {
+          "n_all": 1990,
+          "n_common": 1960,
+          "thr_campaign_pool": 0.33465093836241233,
+          "thr_restricted_pool": 0.33465093836241233,
+          "thr_e3_convention_full_pool": 0.33465093836241233,
+          "thr_e3_convention_after_withdrawal": 0.33465093836241233,
+          "n_units_used_by_e3_rule": 8000,
+          "pd_all_campaign_threshold": 0.821105527638191,
+          "pd_common_campaign_threshold": 0.8219387755102041,
+          "pd_common_restricted_threshold": 0.8219387755102041,
+          "pd_vs_order_statistic": {
+            "4": 0.6949748743718593,
+            "5": 0.7422110552763819,
+            "6": 0.7552763819095477,
+            "7": 0.771859296482412,
+            "8": 0.821105527638191,
+            "9": 0.8954773869346734,
+            "10": 0.9175879396984925,
+            "11": 0.9180904522613065,
+            "12": 0.9185929648241206
+          },
+          "pd_span_over_ranks_4_to_12": 0.22361809045226122
+        },
+        "fold2": {
+          "n_all": 2000,
+          "n_common": 2000,
+          "thr_campaign_pool": 0.37280253304367633,
+          "thr_restricted_pool": 0.37280253304367633,
+          "thr_e3_convention_full_pool": 0.37280253304367633,
+          "thr_e3_convention_after_withdrawal": 0.40906794306675937,
+          "n_units_used_by_e3_rule": 7877,
+          "pd_all_campaign_threshold": 0.8085,
+          "pd_common_campaign_threshold": 0.8085,
+          "pd_common_restricted_threshold": 0.8085,
+          "pd_vs_order_statistic": {
+            "4": 0.7095,
+            "5": 0.735,
+            "6": 0.74,
+            "7": 0.7585,
+            "8": 0.8085,
+            "9": 0.8515,
+            "10": 0.8535,
+            "11": 0.8605,
+            "12": 0.8625
+          },
+          "pd_span_over_ranks_4_to_12": 0.15300000000000002
+        }
+      },
+      "pooled_all_campaign_threshold": 0.8147869674185464,
+      "pooled_common_campaign_threshold": 0.8151515151515152,
+      "e3_report_pooled": 0.7898989898989899,
+      "e3_per_fold": [
+        {
+          "fold": "fold1",
+          "threshold": 0.33465093836241233,
+          "n_trials": 1960,
+          "pd": 0.8219387755102041
+        },
+        {
+          "fold": "fold2",
+          "threshold": 0.40906794306675937,
+          "n_trials": 2000,
+          "pd": 0.7585
+        }
+      ]
+    },
+    "R3": {
+      "finding": "the pooled +0.123 is the trial-weighted mean of a -0.028 and a +0.271 fold; it is an algebraic identity, not a new measurement",
+      "by_strategy": {
+        "A": {
+          "by_fold": [
+            -0.0276382,
+            0.271
+          ],
+          "pooled_trial_weighted": 0.12205513333333333,
+          "sign_flips": true
+        },
+        "B": {
+          "by_fold": [
+            0.114573,
+            -0.0645
+          ],
+          "pooled_trial_weighted": 0.0248120977443609,
+          "sign_flips": true
+        },
+        "C": {
+          "by_fold": [
+            0.0743719,
+            0.1665
+          ],
+          "pooled_trial_weighted": 0.12055139874686717,
+          "sign_flips": false
+        },
+        "D": {
+          "by_fold": [
+            0.146231,
+            0.505
+          ],
+          "pooled_trial_weighted": 0.3260650852130326,
+          "sign_flips": false
+        }
+      }
+    },
+    "R4": {
+      "finding": "threshold-deployed (+0.122) and retrospective matched-realised-PFA (+0.088) are different estimands; the second sets its threshold on TEST-H0 and is therefore not deployable",
+      "threshold_deployed_delta": 0.1221,
+      "retrospective_matched_delta": 0.08766836729999994,
+      "matched_pfa_realised": 0.001007099391,
+      "deployed_realised_pfa_hybrid_fold1_A": 0.0,
+      "deployed_realised_pfa_hybrid_fold2_A": 0.00475
+    },
+    "R5": {
+      "finding": "the E3 labels are injection gains, not delta-SCR: with the measured clutter ratio folded in, the same label corresponds to different delta-SCR in the two folds",
+      "conditions": {
+        "fold1|vh_-10dB": {
+          "vh_target_to_clutter_ratio": 0.1634610943752721,
+          "dSCR_VH_db": -7.865855977973066
+        },
+        "fold1|vh_0dB": {
+          "vh_target_to_clutter_ratio": 1.6346109437527212,
+          "dSCR_VH_db": 2.1341440220269345
+        },
+        "fold2|vh_-10dB": {
+          "vh_target_to_clutter_ratio": 0.31087030558762774,
+          "dSCR_VH_db": -5.074207598974238
+        },
+        "fold2|vh_0dB": {
+          "vh_target_to_clutter_ratio": 3.1087030558762763,
+          "dSCR_VH_db": 4.925792401025761
+        }
+      }
+    },
+    "R6": {
+      "finding": "the median commutes with the monotone log, but the subsets differ",
+      "all_16": {
+        "median_eta": 0.66205,
+        "dSCR_db": -1.7910921010094354
+      },
+      "literature_8": {
+        "median_eta": 0.66205,
+        "dSCR_db": -1.7910921010094354
+      },
+      "literature_measurable_4": {
+        "median_eta": 0.95035,
+        "dSCR_db": -0.22116420948019286
+      },
+      "median_of_db_minus_db_of_median_db": 0.0063410149235656466,
+      "note": "with n = 16 the median averages two values; the two conventions differ by 0.0063 dB, well inside every interval quoted"
+    }
+  },
+  "assertions": {
+    "R1_point_is_10log10_eta": true,
+    "R1_ci_brackets_after_conversion": true,
+    "R2_pooled_all_reproduces_phase6": true,
+    "R2_e3_report_reproduces_0_790": true,
+    "R2_e3_rule_reproduces_its_threshold": true,
+    "R2_metadata_coverage_is_fold_asymmetric": true,
+    "R3_pooled_equals_weighted_mean": true,
+    "R4_retrospective_is_0_088": true,
+    "R5_folds_differ_for_same_label": true,
+    "R6_median_convention_difference_is_negligible": true
+  },
+  "result": "PASS",
+  "failed": []
+}

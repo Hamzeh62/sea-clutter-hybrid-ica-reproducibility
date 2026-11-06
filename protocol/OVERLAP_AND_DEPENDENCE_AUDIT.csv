@@ -1,0 +1,17 @@
+metric,value,verdict,note
+cal_test_window_overlap,0,PASS,CAL and TEST are acquisition-disjoint
+cal_test_acquisition_overlap,0,PASS,"two-fold acquisition split, 8 vs 8"
+fold1_h1_pairwise_window_overlap_fraction,0.0,PASS,0/24506 same-cell trial pairs share any sample
+fold1_h1_trials_per_cell_mean,24.57,INFO,cluster size
+fold1_h1_design_effect_icc_0.08,2.89,INFO,"1+(m-1)*ICC, ICC from Phase-3 hybrid cluster bootstrap"
+fold1_h1_effective_n,689.7,INFO,cluster-adjusted effective sample size
+fold1_test_h0_expected_fa_1e-3,27.2,INFO,"planning expectation, not an observation"
+fold1_test_h0_expected_fa_1e-4,2.72,INFO,"planning expectation, not an observation"
+fold2_h1_pairwise_window_overlap_fraction,0.0,PASS,0/24786 same-cell trial pairs share any sample
+fold2_h1_trials_per_cell_mean,24.39,INFO,cluster size
+fold2_h1_design_effect_icc_0.08,2.87,INFO,"1+(m-1)*ICC, ICC from Phase-3 hybrid cluster bootstrap"
+fold2_h1_effective_n,696.6,INFO,cluster-adjusted effective sample size
+fold2_test_h0_expected_fa_1e-3,27.2,INFO,"planning expectation, not an observation"
+fold2_test_h0_expected_fa_1e-4,2.72,INFO,"planning expectation, not an observation"
+synth_prior_A_median_nu_b,0.493/0.0398,INFO,"full-sample prior 0.491/0.0356; two scalars, relative shift nu 0.4 %, b 11.8 %"
+synth_prior_B_median_nu_b,0.490/0.0341,INFO,"full-sample prior 0.491/0.0356; two scalars, relative shift nu 0.1 %, b 4.3 %"

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If using the research software or numerical results, cite the associated manuscript and the version-specific Zenodo DOI when available."
+title: "Hybrid Complex-Valued Deep Learning and Reference-Anchored ICA for Small-Target Detection in Sea Clutter: Detection and Calibration Analysis"
+abstract: "Reproducibility package for an evaluation study of reference-conditioned small-target detection in polarimetric sea clutter. It contains the deployed detector implementations, the frozen two-fold acquisition protocol, the released numerical results, and the scripts that regenerate every published figure and table. The study establishes that a reference-conditioned autoregressive detector collapses when its cross-polarised reference contains the target, that the collapse is prediction-error self-cancellation rather than polarimetric sensitivity, and that no tested clutter-only calibration rule realises a nominal false-alarm rate of 1e-3 across the 16 IPIX acquisitions."
+type: software
+license: MIT
+repository-code: "https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility"
+version: "1.0.0"
+authors:
+  - family-names: "Ghahramani"
+    given-names: "Hamzeh"
+    affiliation: "Department of Electrical Engineering, Bandar Khamir Center, Bandar Lengeh Branch, Islamic Azad University, Hormozgan, Iran"
+    email: "hamze.ghahramani@gmail.com"
+contact:
+  - family-names: "Ghahramani"
+    given-names: "Hamzeh"
+    email: "hamze.ghahramani@gmail.com"
+keywords:
+  - "sea clutter"
+  - "small-target detection"
+  - "polarimetric radar"
+  - "complex independent component analysis"
+  - "false-alarm calibration"
+  - "adaptive cancellation"
+# Article reference and DOI will be added after the manuscript is submitted/published.
+# Primary contact: hamze.ghahramani@gmail.com
+# Confirmed institutional email: hamze.ghahramani@iau.ac.ir
+# MIT code / CC BY 4.0 research artifacts; DOI not yet assigned.
+# Final manuscript title synchronised to restored SIVP submission on 2026-11-01.
+# Institutional email (author confirmed): hamze.ghahramani@iau.ac.ir

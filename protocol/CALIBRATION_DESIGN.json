@@ -1,0 +1,121 @@
+{
+  "historical_pool": {
+    "n_windows": 1500,
+    "n_cells": 42,
+    "cells_per_acq": 14,
+    "windows_per_cell_mean": 35.71,
+    "score_icc": 0.1766,
+    "design_effect_at_mean_cluster": 7.13,
+    "effective_n": 210.5,
+    "q999_mean": 0.4254,
+    "q999_ci95": [
+      0.245,
+      0.526
+    ],
+    "q999_relative_sd": 0.2036,
+    "q9999_relative_sd_lower_bound": 0.1462,
+    "n_eff_used_for_scaling": 210.5,
+    "deployed_threshold": 0.45426,
+    "realized_pfa_at_deployed_ci95": [
+      0.0,
+      0.00339
+    ]
+  },
+  "projection": {
+    "model": "n_eff = cells * m / (1 + (m-1) * ICC); threshold rel. SE scaled by sqrt(n_eff_hist / n_eff_new)",
+    "icc_source": "hybrid H0 score, historical 1,500-window pool"
+  },
+  "feasibility_rows": [
+    {
+      "pfa": 0.001,
+      "scope": "fold1",
+      "n_cal_windows": 27156,
+      "n_cal_cells": 82,
+      "windows_per_cell": 331.2,
+      "n_test_h0_windows": 27156,
+      "expected_test_false_alarms": 27.16,
+      "cp95_lo": 0.000655,
+      "cp95_hi": 0.001446,
+      "effective_n_cluster": 457.9,
+      "threshold_relative_se": 0.138,
+      "rule": "empirical order statistic",
+      "verdict": "primary: realized PFA verifiable to about +-26 %"
+    },
+    {
+      "pfa": 0.001,
+      "scope": "fold2",
+      "n_cal_windows": 27156,
+      "n_cal_cells": 81,
+      "windows_per_cell": 335.3,
+      "n_test_h0_windows": 27156,
+      "expected_test_false_alarms": 27.16,
+      "cp95_lo": 0.000655,
+      "cp95_hi": 0.001446,
+      "effective_n_cluster": 452.4,
+      "threshold_relative_se": 0.139,
+      "rule": "empirical order statistic",
+      "verdict": "primary: realized PFA verifiable to about +-26 %"
+    },
+    {
+      "pfa": 0.001,
+      "scope": "pooled_folds",
+      "n_cal_windows": 54312,
+      "n_cal_cells": 163,
+      "windows_per_cell": 333.2,
+      "n_test_h0_windows": 54312,
+      "expected_test_false_alarms": 54.31,
+      "cp95_lo": 0.000747,
+      "cp95_hi": 0.001297,
+      "effective_n_cluster": 910.3,
+      "threshold_relative_se": 0.098,
+      "rule": "empirical order statistic",
+      "verdict": "primary: realized PFA verifiable to about +-26 %"
+    },
+    {
+      "pfa": 0.0001,
+      "scope": "fold1",
+      "n_cal_windows": 27156,
+      "n_cal_cells": 82,
+      "windows_per_cell": 331.2,
+      "n_test_h0_windows": 27156,
+      "expected_test_false_alarms": 2.72,
+      "cp95_lo": 2.3e-05,
+      "cp95_hi": 0.000323,
+      "effective_n_cluster": 457.9,
+      "threshold_relative_se": 0.339,
+      "rule": "exponential-tail extrapolation",
+      "verdict": "exploratory only, not independently verifiable"
+    },
+    {
+      "pfa": 0.0001,
+      "scope": "fold2",
+      "n_cal_windows": 27156,
+      "n_cal_cells": 81,
+      "windows_per_cell": 335.3,
+      "n_test_h0_windows": 27156,
+      "expected_test_false_alarms": 2.72,
+      "cp95_lo": 2.3e-05,
+      "cp95_hi": 0.000323,
+      "effective_n_cluster": 452.4,
+      "threshold_relative_se": 0.341,
+      "rule": "exponential-tail extrapolation",
+      "verdict": "exploratory only, not independently verifiable"
+    },
+    {
+      "pfa": 0.0001,
+      "scope": "pooled_folds",
+      "n_cal_windows": 54312,
+      "n_cal_cells": 163,
+      "windows_per_cell": 333.2,
+      "n_test_h0_windows": 54312,
+      "expected_test_false_alarms": 5.43,
+      "cp95_lo": 3e-05,
+      "cp95_hi": 0.000215,
+      "effective_n_cluster": 910.3,
+      "threshold_relative_se": 0.24,
+      "rule": "exponential-tail extrapolation",
+      "verdict": "exploratory only, not independently verifiable"
+    }
+  ],
+  "conclusion": "At PFA=1e-3 the pooled 16-acquisition design has about 54 expected TEST-H0 exceedances but only a few hundred effective independent units; the threshold itself stays uncertain at the 10-15 % level. At PFA=1e-4 the expected TEST-H0 count is ~5 and no independent verification is possible."
+}

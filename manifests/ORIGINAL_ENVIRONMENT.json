@@ -1,0 +1,15 @@
+{
+  "blas_threads_per_worker": 1,
+  "campaign": "minimal_v1_20261029",
+  "config_sha256": "e2d6b92133e82f2cdcdf473c8a9f1702532130cae2756b5ec62a2156294afb92",
+  "cpu_count": 4,
+  "executable": "F:\\ClaudeCode\\Topic 1\\ipix_hybrid_detector\\.venv\\Scripts\\python.exe",
+  "generated": "2026-10-29T18:01:53Z",
+  "machine": "AMD64",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.10",
+  "scipy": "1.18.1",
+  "torch": "2.13.0+cpu",
+  "torch_threads_per_worker": 1
+}

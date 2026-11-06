@@ -1,0 +1,26 @@
+{
+  "input_seed": 20261101,
+  "tolerance": {
+    "statistic": 1e-06,
+    "a_hat_abs_sum": 0.0001,
+    "r_abs_sum": 0.0001
+  },
+  "checkpoints": {
+    "hybrid": {
+      "checkpoint_sha256": "a0a49db9c24814706fa89b38c8fc1ee8b306fc15cf6a611f259148d18a06ce53",
+      "parameter_sha256": "335b03817b56f5488e0eecc1f2f31ed376b1605ed7ec147ca64411bb9121ecb9",
+      "n_parameters": 970865,
+      "a_hat_abs_sum": 8190.98046875,
+      "r_abs_sum": 1506.4503173828125,
+      "statistic": 0.4612219009605923
+    },
+    "nophys": {
+      "checkpoint_sha256": "2bcf10417a97f4d234853c97d43106331b33c0c0ab99f3e5b30ebdcd18411da0",
+      "parameter_sha256": "8183aff4cb7e1e93caa4b6d4dd1c12ddd25d865f50caa881ef600818052170ce",
+      "n_parameters": 970865,
+      "a_hat_abs_sum": 11312.306640625,
+      "r_abs_sum": 1636.53955078125,
+      "statistic": 0.3167577283858545
+    }
+  }
+}

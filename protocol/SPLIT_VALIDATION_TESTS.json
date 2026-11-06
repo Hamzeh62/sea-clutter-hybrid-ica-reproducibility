@@ -1,0 +1,373 @@
+{
+  "protocol_version": "P4-2FOLD-1.0",
+  "params": {
+    "Np": 512,
+    "hop": 256,
+    "block": 31,
+    "stride": 33,
+    "h1_block_mod": 4,
+    "h1_trials_per_acq": 250,
+    "h1_seed": 4001,
+    "split_seed": 20261034,
+    "icc_assumed": 0.08
+  },
+  "partitions": {
+    "fold1": {
+      "test_acquisitions": [
+        "19931108_213827_starea",
+        "19931108_220902_starea",
+        "19931109_202217_starea",
+        "19931111_163625_starea",
+        "19931118_023604_starec0000",
+        "19931118_162155_starec0000",
+        "19931118_162658_starec0000",
+        "19980205_171437_antstep"
+      ],
+      "cal_acquisitions": [
+        "19931107_135603_starea",
+        "19931107_141630_starea",
+        "19931107_145028_starea",
+        "19931109_191449_starea",
+        "19931110_001635_starea",
+        "19931118_035737_starec0000",
+        "19931118_174259_starec0000",
+        "19980204_163113_antstep"
+      ],
+      "n_cal_cells": 82,
+      "n_test_cells": 81,
+      "n_cal_windows": 27156,
+      "n_test_h0_windows": 27156,
+      "n_h1_candidates": 7581,
+      "n_h1_trials": 1990,
+      "h1_quota_per_acq": {
+        "19931108_213827_starea": 250,
+        "19931108_220902_starea": 250,
+        "19931109_202217_starea": 250,
+        "19931111_163625_starea": 250,
+        "19931118_023604_starec0000": 250,
+        "19931118_162155_starec0000": 250,
+        "19931118_162658_starec0000": 250,
+        "19980205_171437_antstep": 240
+      },
+      "layout_test": {
+        "19931108_213827_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931108_220902_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931109_202217_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931111_163625_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931118_023604_starec0000": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931118_162155_starec0000": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931118_162658_starec0000": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19980205_171437_antstep": {
+          "n_blocks": 7,
+          "n_h0": 186,
+          "n_h1": 31
+        }
+      }
+    },
+    "fold2": {
+      "test_acquisitions": [
+        "19931107_135603_starea",
+        "19931107_141630_starea",
+        "19931107_145028_starea",
+        "19931109_191449_starea",
+        "19931110_001635_starea",
+        "19931118_035737_starec0000",
+        "19931118_174259_starec0000",
+        "19980204_163113_antstep"
+      ],
+      "cal_acquisitions": [
+        "19931108_213827_starea",
+        "19931108_220902_starea",
+        "19931109_202217_starea",
+        "19931111_163625_starea",
+        "19931118_023604_starec0000",
+        "19931118_162155_starec0000",
+        "19931118_162658_starec0000",
+        "19980205_171437_antstep"
+      ],
+      "n_cal_cells": 81,
+      "n_test_cells": 82,
+      "n_cal_windows": 27156,
+      "n_test_h0_windows": 27156,
+      "n_h1_candidates": 7534,
+      "n_h1_trials": 2000,
+      "h1_quota_per_acq": {
+        "19931107_135603_starea": 250,
+        "19931107_141630_starea": 250,
+        "19931107_145028_starea": 250,
+        "19931109_191449_starea": 250,
+        "19931110_001635_starea": 250,
+        "19931118_035737_starec0000": 250,
+        "19931118_174259_starec0000": 250,
+        "19980204_163113_antstep": 250
+      },
+      "layout_test": {
+        "19931107_135603_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931107_141630_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931107_145028_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931109_191449_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931110_001635_starea": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931118_035737_starec0000": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19931118_174259_starec0000": {
+          "n_blocks": 16,
+          "n_h0": 372,
+          "n_h1": 109
+        },
+        "19980204_163113_antstep": {
+          "n_blocks": 7,
+          "n_h0": 186,
+          "n_h1": 31
+        }
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "cache_acquisitions_16",
+      "status": "PASS",
+      "detail": 16
+    },
+    {
+      "check": "folds_balanced_within_one",
+      "status": "PASS",
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "check": "site_imbalance_within_one",
+      "status": "PASS",
+      "detail": {
+        "antstep": [
+          1,
+          1
+        ],
+        "starea": [
+          4,
+          5
+        ],
+        "starec0000": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "check": "every_site_on_both_sides",
+      "status": "PASS",
+      "detail": {
+        "antstep": [
+          1,
+          1
+        ],
+        "starea": [
+          4,
+          5
+        ],
+        "starec0000": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "check": "fold_seed_recorded",
+      "status": "PASS",
+      "detail": [
+        20261034
+      ]
+    },
+    {
+      "check": "acq_disjoint::fold1",
+      "status": "PASS",
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "check": "acq_disjoint::fold2",
+      "status": "PASS",
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "check": "cal_test_window_overlap_zero::fold1",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "cal_test_acquisition_overlap_zero::fold1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "h1_trials_per_fold::fold1",
+      "status": "PASS",
+      "detail": {
+        "got": 1990,
+        "quota": 1990
+      }
+    },
+    {
+      "check": "h1_quota_at_least_capacity::fold1",
+      "status": "PASS",
+      "detail": {
+        "19931108_213827_starea": 250,
+        "19931108_220902_starea": 250,
+        "19931109_202217_starea": 250,
+        "19931111_163625_starea": 250,
+        "19931118_023604_starec0000": 250,
+        "19931118_162155_starec0000": 250,
+        "19931118_162658_starec0000": 250,
+        "19980205_171437_antstep": 240
+      }
+    },
+    {
+      "check": "h1_trials_distinct::fold1",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "h1_not_in_test_h0::fold1",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "h1_cells_eligible::fold1",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "block_dead_gap_at_least_hop::fold1",
+      "status": "PASS",
+      "detail": {
+        "min_start_diff_windows": 33,
+        "dead_samples_between_blocks": 7936
+      }
+    },
+    {
+      "check": "cal_test_window_overlap_zero::fold2",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "cal_test_acquisition_overlap_zero::fold2",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "h1_trials_per_fold::fold2",
+      "status": "PASS",
+      "detail": {
+        "got": 2000,
+        "quota": 2000
+      }
+    },
+    {
+      "check": "h1_quota_at_least_capacity::fold2",
+      "status": "PASS",
+      "detail": {
+        "19931107_135603_starea": 250,
+        "19931107_141630_starea": 250,
+        "19931107_145028_starea": 250,
+        "19931109_191449_starea": 250,
+        "19931110_001635_starea": 250,
+        "19931118_035737_starec0000": 250,
+        "19931118_174259_starec0000": 250,
+        "19980204_163113_antstep": 250
+      }
+    },
+    {
+      "check": "h1_trials_distinct::fold2",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "h1_not_in_test_h0::fold2",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "h1_cells_eligible::fold2",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "block_dead_gap_at_least_hop::fold2",
+      "status": "PASS",
+      "detail": {
+        "min_start_diff_windows": 33,
+        "dead_samples_between_blocks": 7936
+      }
+    },
+    {
+      "check": "clutter_prior_files_found",
+      "status": "PASS",
+      "detail": 16
+    }
+  ],
+  "n_pass": 24,
+  "n_fail": 0,
+  "artifacts_sha256": {
+    "DATA_PARTITION_MANIFEST.csv": "be5ebfc8cc64d4b4e304018fed53667c86059b5b1328f014c0d2666861f7728a",
+    "H1_TRIAL_DESIGN.csv": "5e569b74384aeb81c20c22ae928f3f5afa60bf5858dc0e5c1d5da1f8f99d20fd",
+    "split_protocol.py": "b29f40a3745fb4a37111675f12a11397be8cdda2894371fafbebd4badf29c976",
+    "acquisition_ids.py": "283c2483c93545933411193c8389d3312eec9c229285abe98f02b73dcd7773dc"
+  }
+}

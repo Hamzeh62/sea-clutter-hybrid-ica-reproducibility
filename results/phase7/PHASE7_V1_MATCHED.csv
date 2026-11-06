@@ -1,0 +1,125 @@
+fold,condition,dSCR_dB,phi,arm,mode,n,pd,threshold,realised_test_pfa,source
+fold1,vh_absent,-inf,-,hybrid,matched_0.005,1990,0.867337,0.189811,0.00475,frozen campaign
+fold1,vh_absent,-inf,-,hybrid,matched_0.001,1990,0.831658,0.22338,0.00075,frozen campaign
+fold1,vh_absent,-inf,-,ar8,matched_0.005,1990,0.88593,0.27339,0.00475,frozen campaign
+fold1,vh_absent,-inf,-,ar8,matched_0.001,1990,0.683417,0.431265,0.00075,frozen campaign
+fold1,vh_absent,-inf,-,notch,matched_0.005,1990,0.890955,0.174264,0.00475,frozen campaign
+fold1,vh_absent,-inf,-,notch,matched_0.001,1990,0.848241,0.224914,0.00075,frozen campaign
+fold1,vh_absent,-inf,-,anmf_dl,matched_0.005,1990,0.843216,0.218252,0.00475,frozen campaign
+fold1,vh_absent,-inf,-,anmf_dl,matched_0.001,1990,0.565327,0.445258,0.00075,frozen campaign
+fold2,vh_absent,-inf,-,hybrid,matched_0.005,2000,0.779,0.231405,0.00475,frozen campaign
+fold2,vh_absent,-inf,-,hybrid,matched_0.001,2000,0.385,0.46907,0.00075,frozen campaign
+fold2,vh_absent,-inf,-,ar8,matched_0.005,2000,0.985,0.146297,0.00475,frozen campaign
+fold2,vh_absent,-inf,-,ar8,matched_0.001,2000,0.9455,0.243769,0.00075,frozen campaign
+fold2,vh_absent,-inf,-,notch,matched_0.005,2000,0.772,0.336284,0.00475,frozen campaign
+fold2,vh_absent,-inf,-,notch,matched_0.001,2000,0.256,0.640696,0.00075,frozen campaign
+fold2,vh_absent,-inf,-,anmf_dl,matched_0.005,2000,0.6815,0.39235,0.00475,frozen campaign
+fold2,vh_absent,-inf,-,anmf_dl,matched_0.001,2000,0.4765,0.519412,0.00075,frozen campaign
+fold1,dSCR-10__phi180,-10,phi180,ar8,matched_0.005,1990,0.207538,0.27339,0.00475,V1
+fold1,dSCR-10__phi180,-10,phi180,ar8,matched_0.001,1990,0.0969849,0.431265,0.00075,V1
+fold1,dSCR-10__phi180,-10,phi180,notch,matched_0.005,1990,0.935678,0.174264,0.00475,V1
+fold1,dSCR-10__phi180,-10,phi180,notch,matched_0.001,1990,0.890955,0.224914,0.00075,V1
+fold1,dSCR-10__phi270,-10,phi270,ar8,matched_0.005,1990,0.20402,0.27339,0.00475,V1
+fold1,dSCR-10__phi270,-10,phi270,ar8,matched_0.001,1990,0.0964824,0.431265,0.00075,V1
+fold1,dSCR-10__phi270,-10,phi270,notch,matched_0.005,1990,0.904523,0.174264,0.00475,V1
+fold1,dSCR-10__phi270,-10,phi270,notch,matched_0.001,1990,0.854271,0.224914,0.00075,V1
+fold1,dSCR-10__phi90,-10,phi90,ar8,matched_0.005,1990,0.201005,0.27339,0.00475,V1
+fold1,dSCR-10__phi90,-10,phi90,ar8,matched_0.001,1990,0.1,0.431265,0.00075,V1
+fold1,dSCR-10__phi90,-10,phi90,notch,matched_0.005,1990,0.898995,0.174264,0.00475,V1
+fold1,dSCR-10__phi90,-10,phi90,notch,matched_0.001,1990,0.848744,0.224914,0.00075,V1
+fold1,dSCR-10__randphi,-10,randphi,hybrid,matched_0.005,1990,0.867839,0.189811,0.00475,V1
+fold1,dSCR-10__randphi,-10,randphi,hybrid,matched_0.001,1990,0.830653,0.22338,0.00075,V1
+fold1,dSCR-10__randphi,-10,randphi,ar8,matched_0.005,1990,0.20603,0.27339,0.00475,V1
+fold1,dSCR-10__randphi,-10,randphi,ar8,matched_0.001,1990,0.0974874,0.431265,0.00075,V1
+fold1,dSCR-10__randphi,-10,randphi,notch,matched_0.005,1990,0.893467,0.174264,0.00475,V1
+fold1,dSCR-10__randphi,-10,randphi,notch,matched_0.001,1990,0.851256,0.224914,0.00075,V1
+fold1,dSCR-20__randphi,-20,randphi,hybrid,matched_0.005,1990,0.868342,0.189811,0.00475,V1
+fold1,dSCR-20__randphi,-20,randphi,hybrid,matched_0.001,1990,0.832663,0.22338,0.00075,V1
+fold1,dSCR-20__randphi,-20,randphi,ar8,matched_0.005,1990,0.723618,0.27339,0.00475,V1
+fold1,dSCR-20__randphi,-20,randphi,ar8,matched_0.001,1990,0.503518,0.431265,0.00075,V1
+fold1,dSCR-20__randphi,-20,randphi,notch,matched_0.005,1990,0.88995,0.174264,0.00475,V1
+fold1,dSCR-20__randphi,-20,randphi,notch,matched_0.001,1990,0.845226,0.224914,0.00075,V1
+fold1,dSCR0__energy,0,energy,hybrid,matched_0.005,1990,0.729648,0.189811,0.00475,V1
+fold1,dSCR0__energy,0,energy,hybrid,matched_0.001,1990,0.686935,0.22338,0.00075,V1
+fold1,dSCR0__energy,0,energy,ar8,matched_0.005,1990,0.0396985,0.27339,0.00475,V1
+fold1,dSCR0__energy,0,energy,ar8,matched_0.001,1990,0.0160804,0.431265,0.00075,V1
+fold1,dSCR0__energy,0,energy,notch,matched_0.005,1990,0.806533,0.174264,0.00475,V1
+fold1,dSCR0__energy,0,energy,notch,matched_0.001,1990,0.751256,0.224914,0.00075,V1
+fold1,dSCR0__phi0,0,phi0,hybrid,matched_0.005,1990,0.841709,0.189811,0.00475,V1
+fold1,dSCR0__phi0,0,phi0,hybrid,matched_0.001,1990,0.8,0.22338,0.00075,V1
+fold1,dSCR0__phi0,0,phi0,ar8,matched_0.005,1990,0.0517588,0.27339,0.00475,V1
+fold1,dSCR0__phi0,0,phi0,ar8,matched_0.001,1990,0.0256281,0.431265,0.00075,V1
+fold1,dSCR0__phi0,0,phi0,notch,matched_0.005,1990,0.801005,0.174264,0.00475,V1
+fold1,dSCR0__phi0,0,phi0,notch,matched_0.001,1990,0.757286,0.224914,0.00075,V1
+fold1,dSCR0__phi180,0,phi180,ar8,matched_0.005,1990,0.0517588,0.27339,0.00475,V1
+fold1,dSCR0__phi180,0,phi180,ar8,matched_0.001,1990,0.0256281,0.431265,0.00075,V1
+fold1,dSCR0__phi180,0,phi180,notch,matched_0.005,1990,0.978894,0.174264,0.00475,V1
+fold1,dSCR0__phi180,0,phi180,notch,matched_0.001,1990,0.953266,0.224914,0.00075,V1
+fold1,dSCR0__phi270,0,phi270,ar8,matched_0.005,1990,0.0522613,0.27339,0.00475,V1
+fold1,dSCR0__phi270,0,phi270,ar8,matched_0.001,1990,0.0261307,0.431265,0.00075,V1
+fold1,dSCR0__phi270,0,phi270,notch,matched_0.005,1990,0.938191,0.174264,0.00475,V1
+fold1,dSCR0__phi270,0,phi270,notch,matched_0.001,1990,0.886935,0.224914,0.00075,V1
+fold1,dSCR0__phi90,0,phi90,ar8,matched_0.005,1990,0.0517588,0.27339,0.00475,V1
+fold1,dSCR0__phi90,0,phi90,ar8,matched_0.001,1990,0.0251256,0.431265,0.00075,V1
+fold1,dSCR0__phi90,0,phi90,notch,matched_0.005,1990,0.919598,0.174264,0.00475,V1
+fold1,dSCR0__phi90,0,phi90,notch,matched_0.001,1990,0.872864,0.224914,0.00075,V1
+fold1,dSCR0__randphi,0,randphi,hybrid,matched_0.005,1990,0.820101,0.189811,0.00475,V1
+fold1,dSCR0__randphi,0,randphi,hybrid,matched_0.001,1990,0.780905,0.22338,0.00075,V1
+fold1,dSCR0__randphi,0,randphi,ar8,matched_0.005,1990,0.0517588,0.27339,0.00475,V1
+fold1,dSCR0__randphi,0,randphi,ar8,matched_0.001,1990,0.0261307,0.431265,0.00075,V1
+fold1,dSCR0__randphi,0,randphi,notch,matched_0.005,1990,0.909045,0.174264,0.00475,V1
+fold1,dSCR0__randphi,0,randphi,notch,matched_0.001,1990,0.875879,0.224914,0.00075,V1
+fold2,dSCR-10__phi180,-10,phi180,ar8,matched_0.005,2000,0.522,0.146297,0.00475,V1
+fold2,dSCR-10__phi180,-10,phi180,ar8,matched_0.001,2000,0.309,0.243769,0.00075,V1
+fold2,dSCR-10__phi180,-10,phi180,notch,matched_0.005,2000,0.8135,0.336284,0.00475,V1
+fold2,dSCR-10__phi180,-10,phi180,notch,matched_0.001,2000,0.2755,0.640696,0.00075,V1
+fold2,dSCR-10__phi270,-10,phi270,ar8,matched_0.005,2000,0.529,0.146297,0.00475,V1
+fold2,dSCR-10__phi270,-10,phi270,ar8,matched_0.001,2000,0.3125,0.243769,0.00075,V1
+fold2,dSCR-10__phi270,-10,phi270,notch,matched_0.005,2000,0.779,0.336284,0.00475,V1
+fold2,dSCR-10__phi270,-10,phi270,notch,matched_0.001,2000,0.268,0.640696,0.00075,V1
+fold2,dSCR-10__phi90,-10,phi90,ar8,matched_0.005,2000,0.517,0.146297,0.00475,V1
+fold2,dSCR-10__phi90,-10,phi90,ar8,matched_0.001,2000,0.3125,0.243769,0.00075,V1
+fold2,dSCR-10__phi90,-10,phi90,notch,matched_0.005,2000,0.7695,0.336284,0.00475,V1
+fold2,dSCR-10__phi90,-10,phi90,notch,matched_0.001,2000,0.2555,0.640696,0.00075,V1
+fold2,dSCR-10__randphi,-10,randphi,hybrid,matched_0.005,2000,0.778,0.231405,0.00475,V1
+fold2,dSCR-10__randphi,-10,randphi,hybrid,matched_0.001,2000,0.3935,0.46907,0.00075,V1
+fold2,dSCR-10__randphi,-10,randphi,ar8,matched_0.005,2000,0.5115,0.146297,0.00475,V1
+fold2,dSCR-10__randphi,-10,randphi,ar8,matched_0.001,2000,0.3165,0.243769,0.00075,V1
+fold2,dSCR-10__randphi,-10,randphi,notch,matched_0.005,2000,0.773,0.336284,0.00475,V1
+fold2,dSCR-10__randphi,-10,randphi,notch,matched_0.001,2000,0.26,0.640696,0.00075,V1
+fold2,dSCR-20__randphi,-20,randphi,hybrid,matched_0.005,2000,0.7775,0.231405,0.00475,V1
+fold2,dSCR-20__randphi,-20,randphi,hybrid,matched_0.001,2000,0.384,0.46907,0.00075,V1
+fold2,dSCR-20__randphi,-20,randphi,ar8,matched_0.005,2000,0.885,0.146297,0.00475,V1
+fold2,dSCR-20__randphi,-20,randphi,ar8,matched_0.001,2000,0.827,0.243769,0.00075,V1
+fold2,dSCR-20__randphi,-20,randphi,notch,matched_0.005,2000,0.774,0.336284,0.00475,V1
+fold2,dSCR-20__randphi,-20,randphi,notch,matched_0.001,2000,0.2575,0.640696,0.00075,V1
+fold2,dSCR0__energy,0,energy,hybrid,matched_0.005,2000,0.693,0.231405,0.00475,V1
+fold2,dSCR0__energy,0,energy,hybrid,matched_0.001,2000,0.371,0.46907,0.00075,V1
+fold2,dSCR0__energy,0,energy,ar8,matched_0.005,2000,0.0965,0.146297,0.00475,V1
+fold2,dSCR0__energy,0,energy,ar8,matched_0.001,2000,0.064,0.243769,0.00075,V1
+fold2,dSCR0__energy,0,energy,notch,matched_0.005,2000,0.6955,0.336284,0.00475,V1
+fold2,dSCR0__energy,0,energy,notch,matched_0.001,2000,0.2115,0.640696,0.00075,V1
+fold2,dSCR0__phi0,0,phi0,hybrid,matched_0.005,2000,0.7455,0.231405,0.00475,V1
+fold2,dSCR0__phi0,0,phi0,hybrid,matched_0.001,2000,0.4325,0.46907,0.00075,V1
+fold2,dSCR0__phi0,0,phi0,ar8,matched_0.005,2000,0.1015,0.146297,0.00475,V1
+fold2,dSCR0__phi0,0,phi0,ar8,matched_0.001,2000,0.0675,0.243769,0.00075,V1
+fold2,dSCR0__phi0,0,phi0,notch,matched_0.005,2000,0.6795,0.336284,0.00475,V1
+fold2,dSCR0__phi0,0,phi0,notch,matched_0.001,2000,0.2495,0.640696,0.00075,V1
+fold2,dSCR0__phi180,0,phi180,ar8,matched_0.005,2000,0.101,0.146297,0.00475,V1
+fold2,dSCR0__phi180,0,phi180,ar8,matched_0.001,2000,0.067,0.243769,0.00075,V1
+fold2,dSCR0__phi180,0,phi180,notch,matched_0.005,2000,0.891,0.336284,0.00475,V1
+fold2,dSCR0__phi180,0,phi180,notch,matched_0.001,2000,0.3275,0.640696,0.00075,V1
+fold2,dSCR0__phi270,0,phi270,ar8,matched_0.005,2000,0.1015,0.146297,0.00475,V1
+fold2,dSCR0__phi270,0,phi270,ar8,matched_0.001,2000,0.067,0.243769,0.00075,V1
+fold2,dSCR0__phi270,0,phi270,notch,matched_0.005,2000,0.8015,0.336284,0.00475,V1
+fold2,dSCR0__phi270,0,phi270,notch,matched_0.001,2000,0.2855,0.640696,0.00075,V1
+fold2,dSCR0__phi90,0,phi90,ar8,matched_0.005,2000,0.1015,0.146297,0.00475,V1
+fold2,dSCR0__phi90,0,phi90,ar8,matched_0.001,2000,0.0675,0.243769,0.00075,V1
+fold2,dSCR0__phi90,0,phi90,notch,matched_0.005,2000,0.777,0.336284,0.00475,V1
+fold2,dSCR0__phi90,0,phi90,notch,matched_0.001,2000,0.268,0.640696,0.00075,V1
+fold2,dSCR0__randphi,0,randphi,hybrid,matched_0.005,2000,0.7515,0.231405,0.00475,V1
+fold2,dSCR0__randphi,0,randphi,hybrid,matched_0.001,2000,0.435,0.46907,0.00075,V1
+fold2,dSCR0__randphi,0,randphi,ar8,matched_0.005,2000,0.101,0.146297,0.00475,V1
+fold2,dSCR0__randphi,0,randphi,ar8,matched_0.001,2000,0.067,0.243769,0.00075,V1
+fold2,dSCR0__randphi,0,randphi,notch,matched_0.005,2000,0.792,0.336284,0.00475,V1
+fold2,dSCR0__randphi,0,randphi,notch,matched_0.001,2000,0.282,0.640696,0.00075,V1

@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Results and manifests must be byte-stable: they are hashed.
+*.csv   text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.npz   binary
+*.pt    binary
+*.pdf   binary
