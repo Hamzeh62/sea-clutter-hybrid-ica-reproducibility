@@ -1,8 +1,8 @@
 # Deposit status — 2026-11-06
 
 - GitHub repository **created**: https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility
-- At handoff, repository visibility was **private** and repository size was **zero**; the files are locally prepared, **not yet pushed**.
-- Zenodo record **not yet published**; no DOI exists or is claimed.
+- The GitHub repository is public at https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility; source release v1.0.0 is archived at https://doi.org/10.5281/zenodo.24005344.
+- The separate checkpoint and compact-results dataset has been published at https://doi.org/10.5281/zenodo.24005920.
 - Approved licenses: **MIT for original software**, **CC BY 4.0 for author-owned results and model checkpoints**.
 - Verified checkpoints `best_s0.pt` and `best_s0_nophys.pt`: **available** in `PAPER1_CHECKPOINTS_v1.0.0.zip` (separate Zenodo upload file).
 - Compact results: **available** in `PAPER1_RESULTS_COMPACT_FOR_CHATGPT.zip` (separate Zenodo upload file).
