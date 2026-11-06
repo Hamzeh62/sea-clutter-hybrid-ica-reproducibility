@@ -4,7 +4,11 @@
 **Affiliation:** Department of Electrical Engineering, Bandar Khamir Center, Bandar Lengeh Branch, Islamic Azad University, Hormozgan, Iran  
 **Correspondence:** hamze.ghahramani@gmail.com · hamze.ghahramani@iau.ac.ir
 
-This repository is the software and lightweight numerical-results companion to a manuscript **being prepared for submission** to *Signal, Image and Video Processing* (Springer Nature). The manuscript has **not yet been submitted, accepted, or published**. GitHub repository: https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility (initially private). No Zenodo DOI has been assigned yet.
+This repository is the software and lightweight numerical-results companion to a manuscript **being prepared for submission** to *Signal, Image and Video Processing* (Springer Nature). The manuscript has **not yet been submitted, accepted, or published**. GitHub repository: https://github.com/Hamzeh62/sea-clutter-hybrid-ica-reproducibility (public). The archived software release **v1.0.0** is available at https://doi.org/10.5281/zenodo.24005344 (concept DOI for all software versions: https://doi.org/10.5281/zenodo.24005343). This DOI identifies the **software archive**, not the separately prepared model checkpoints and experimental-results archive.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24005344.svg)](https://doi.org/10.5281/zenodo.24005344)
+
+**Citation:** Ghahramani, H. (2026). *Hybrid Complex-Valued Deep Learning and Reference-Anchored ICA for Small-Target Detection in Sea Clutter: Detection and Calibration Analysis — reproducibility software (v1.0.0)*. Zenodo. https://doi.org/10.5281/zenodo.24005344
 
 ## Scientific scope and historical versus corrected results
 
